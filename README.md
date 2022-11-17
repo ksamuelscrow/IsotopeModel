@@ -1,7 +1,6 @@
-# IsotopeModel
+# The Importance of Monsoon Precipitation for Foundation Tree Species across the Semiarid Southwestern U.S.
 
-The Importance of Monsoon Precipitation for Foundation Tree Species across the Semiarid Southwestern U.S.
-K.E. Samuels-Crow1*, D.M.P. Peltier2,3, Y. Liu4, J.S. Guo5, J.M. Welker6,7,8, W.R.L. Anderegg9, G.W. Koch2,3, C. Schwalm3,10, D. Auty11, M. Litvak12, J. Shaw13, K. Ogle1,2,3
+Authors: K.E. Samuels-Crow1^*^1, D.M.P. Peltier2,3, Y. Liu4, J.S. Guo5, J.M. Welker6,7,8, W.R.L. Anderegg9, G.W. Koch2,3, C. Schwalm3,10, D. Auty11, M. Litvak12, J. Shaw13, K. Ogle1,2,3
 
 1 School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ, USA
 2 Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ, USA
