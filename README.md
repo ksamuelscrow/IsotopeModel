@@ -40,4 +40,4 @@ This data repository includes model code and data files used in the analysis pre
 
 ModelCode: Contains a script for initializing and running the merged stem and soil isotope mixing model along with the model code. This code, script, and all data files should be stored in a single directory and run in OpenBugs.
 
-DataFiles: This directory contains data and initial values necessary to run the model in OpenBugs. The .odc data and initial values files are organized to be read into the OpenBugs model. Additionally, we have uploaded an Excel file that contains all of the data organized in a more intuitive structure.
+DataFiles: This directory contains data and initial values necessary to run the model in OpenBugs. The .odc data and initial values files are organized to be read into the OpenBugs model. Additionally, we have uploaded an Excel file ("data_inputs_Summary.xlsx") that contains all of the data organized in a more intuitive structure.
