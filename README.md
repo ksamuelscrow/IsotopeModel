@@ -4,7 +4,7 @@
 
 #### Authors: 
 
-K.E. Samuels-Crow(1*), D.M.P. Peltier(2,3), Y. Liu(4), J.S. Guo(5), J.M. Welker(6,7,8), W.R.L. Anderegg(9), G.W. Koch(2,3), C. Schwalm(3,10), M. Litvak(11), J. Shaw(12), K. Ogle(1,2,3)
+K.E. Samuels-Crow(1*), D.M.P. Peltier(2,3), Y. Liu(4), J.S. Guo(5), J.M. Welker(6,7,8), W.R.L. Anderegg(9), G.W. Koch(2,3), C. Schwalm(3,10), M. Litvak(11), J.D. Shaw(12), K. Ogle(1,2,3)
 
 ### Affiliations:
 
@@ -20,7 +20,7 @@ K.E. Samuels-Crow(1*), D.M.P. Peltier(2,3), Y. Liu(4), J.S. Guo(5), J.M. Welker(
 
 6 Department of Biological Sciences, University of Alaska, Anchorage, AK, USA
 
-7 Ecology & Genetics Research Unit, University of Oulu, Finland
+7 Ecology and Genetics Research Unit, University of Oulu, Finland
 
 8 University of the Arctic (UArctic), Rovaniemi, Finland
 
@@ -30,10 +30,9 @@ K.E. Samuels-Crow(1*), D.M.P. Peltier(2,3), Y. Liu(4), J.S. Guo(5), J.M. Welker(
 
 11 Department of Biology, University of New Mexico, Albuquerque, New Mexico, USA
 
-12 United States Forest Service, Ogden, UT, USA
+12 Rocky Mountain Research Station, USDA Forest Service, Logan, UT, USA
 
-
-Corresponding Author
+*Corresponding Author
 Kimberly.Samuels@nau.edu
 
 This data repository includes model code and data files used in the analysis presented in "The Importance of Monsoon Precipitation for Foundation Tree Species across the Semiarid Southwestern U.S." submitted to Frontiers in December 2022.
