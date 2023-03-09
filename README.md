@@ -57,15 +57,13 @@ script, and all data files should be stored in a single directory and
 run in
 [OpenBugs](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/).
 
--   `Model_SamuelsCrowetal_2023_IsotopeModel_Annotated.odc` contains
+-   `Model_SamuelsCrowetal_2023_IsotopeModel_Annotated.odc` contains the mixing model described in Samuels-Crow et al., 2023. Briefly, this model estimates the proportion of North American Monsoon precipitation contribution to soil moisture at various depths and then estimates the proportion of water from each of these soil depths to stem water extracted from 3 different tree species. See Samuels-Crow et al., 2023 for details.
 
--   `odc43265` is the
-
--   `Script_SamuelsCrowetal_2023_IsotopeModel.odc` contains
+-   `Script_SamuelsCrowetal_2023_IsotopeModel.odc` contains a script to run the mixing model and monitor variables of interest.
 
 `DataFiles/` contains data and initial values necessary to run the
 model. The .odc files should be read into the OpenBugs model, while the
-.xlsx file summarizes collates data inputs.
+.xlsx file summarizes data inputs.
 
 -   `Data_Dimension_bedrock.odc` associates X with Y
 
