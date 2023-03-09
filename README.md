@@ -42,7 +42,7 @@ Mexico, USA
 12 Rocky Mountain Research Station, USDA Forest Service, Logan, UT, USA
 
 \*Corresponding Author
-[Kimberly.Samuels\@nau.edu](mailto:Kimberly.Samuels@nau.edu){.email}
+[Kimberly.Samuels\@nau.edu](mailto:Kimberly.Samuels@nau.edu)
 
 This code and data repository includes model code and data files used in
 the analysis presented in "The Importance of Monsoon Precipitation for
