@@ -1,5 +1,7 @@
 # The Importance of Monsoon Precipitation for Foundation Tree Species across the Semiarid Southwestern U.S.
 
+[![DOI](https://zenodo.org/badge/564490203.svg)](https://zenodo.org/badge/latestdoi/564490203)
+
 ## Model Code and Data Repository
 
 #### Authors:
