@@ -59,24 +59,24 @@ run in
 
 -   `Model_SamuelsCrowetal_2023_IsotopeModel_Annotated.odc` contains the mixing model described in Samuels-Crow et al., 2023. Briefly, this model estimates the proportion of North American Monsoon precipitation contribution to soil moisture at various depths and then estimates the proportion of water from each of these soil depths to stem water extracted from 3 different tree species. See Samuels-Crow et al., 2023 for details.
 
--   `Script_SamuelsCrowetal_2023_IsotopeModel.odc` contains a script to run the mixing model and monitor variables of interest.
+-   `Script_SamuelsCrowetal_2023_IsotopeModel.odc` contains an OpenBUGS script to run the mixing model and monitor variables of interest. To run the model, first download the script, data files, and model to a single directory. Then, open the script file in the OpenBUGS GUI and set the working directory. Finally, go to the model menu and select "Script."
 
-`DataFiles/` contains data and initial values necessary to run the
-model. The .odc files should be read into the OpenBugs model, while the
-.xlsx file summarizes data inputs.
+`DataFiles/` contains the five data files and initial values for each of three chains necessary to run the
+model. The .odc files should be read into the OpenBugs model. The
+.xlsx file summarizes data inputs that is stored in the five .odc files.
 
--   `Data_Dimension_bedrock.odc` associates X with Y
+-   `Data_Dimension_bedrock.odc` includes dimension data for both stem and soil submodels
 
 -   `data_inputs_Summary.xlsx` summarizes all data in a single,
-    human-readable file
+    human-readable file. This file is not necessary to run the model, but it is included for ease of data access.
 
--   `Data_SiteSpeciesIndex.odc` associates X with Y
+-   `Data_SiteSpeciesIndex.odc` There are 12 sites and 17 site-species combinations in the study described in Samuels-Crow et al., 2023. This file includes indices for the 3 soil depths for each site-species combination.
 
--   `Data_soilidentify_stemsubmodel_bedrock.odc` associates X with Y
+-   `Data_soilidentify_stemsubmodel_bedrock.odc` associates site-species with site and site type (aspen site = 1, PJ site = 2).
 
--   `Data_SoilInputs_bedrock.odc` contains
+-   `Data_SoilInputs_bedrock.odc` contains soil water and end-member (monsoon or "bedrock") isotope data. The isotope data (pred_soil, postd_soil, and d_monsoon) are organized into 2 columns where column 1 is \delta^2H and column 2 is \delta^1^8O. For the bedrock end-member, a range of \delta^1^8O values are provided (d18O_bed_low and d18O_bed_hi). See Samuels-Crow et al., 2023 for more information. This file also contains important identifying information to run the model.
 
--   `Data_StemInputs.odc` contains
+-   `Data_StemInputs.odc` contains isotope data for stem water (d_pre_stem and d_post_stem) organized by tree.
 
 -   `Inits_chain1.odc` contains the starting values for the first of
     three MCMC chains
