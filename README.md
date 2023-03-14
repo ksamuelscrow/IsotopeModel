@@ -74,7 +74,7 @@ model. The .odc files should be read into the OpenBugs model. The
 
 -   `Data_soilidentify_stemsubmodel_bedrock.odc` associates site-species with site and site type (aspen site = 1, PJ site = 2).
 
--   `Data_SoilInputs_bedrock.odc` contains soil water and end-member (monsoon or "bedrock") isotope data. The isotope data (pred_soil, postd_soil, and d_monsoon) are organized into 2 columns where column 1 is \delta^2H and column 2 is \delta^1^8O. For the bedrock end-member, a range of \delta^1^8O values are provided (d18O_bed_low and d18O_bed_hi). See Samuels-Crow et al., 2023 for more information. This file also contains important identifying information to run the model.
+-   `Data_SoilInputs_bedrock.odc` contains soil water and end-member (monsoon or "bedrock") isotope data. The isotope data (pred_soil, postd_soil, and d_monsoon) are organized into 2 columns where column 1 is  &delta;<sup>2</sup>H and column 2 is  &delta;<sup>18</sup>O. For the bedrock end-member, a range of  &delta;<sup>18</sup>O values are provided (d18O_bed_low and d18O_bed_hi). See Samuels-Crow et al., 2023 for more information. This file also contains important identifying information to run the model.
 
 -   `Data_StemInputs.odc` contains isotope data for stem water (d_pre_stem and d_post_stem) organized by tree.
 
@@ -86,3 +86,7 @@ model. The .odc files should be read into the OpenBugs model. The
 
 -   `Inits_chain3.odc` contains the starting values for the third of
     three MCMC chains
+    
+#### Reference:
+
+Samuels-Crow, K.E., Peltier, D.M.P., Liu, Y., Guo, J.S., Welker, J.M., Anderegg, W.R., Koch, G.K., Schwalm, C., Litvak, M., Shaw, J.D., Ogle, K. (2023). The Importance of Monsoon Precipitation for Foundation Tree Species across the Semiarid Southwestern U.S. *Frontiers in Forests and Global Change: Understanding Forest Ecosystems: The Use of Stable Isotopes and Physiological Measurements*, vol. 6. doi: 10.3389/ffgc.2023.1116786.
